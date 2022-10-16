@@ -1,0 +1,67 @@
+*{
+	margin:0;
+	padding:0;
+}
+	/*
+	#019E9E
+	#DCDCDC
+	#F5F5F5
+	*/
+.container{
+	background-color: #019E9E;
+}
+.container__name{
+	background-color: #008B8B;
+	color: #F5F5F5;
+	font-size: 20px;
+	padding: 10px 20px;
+}
+.container__name_inVB{
+	background-color: unset;
+	color: black;
+}
+.container__content{
+	display:flex;
+	justify-content: space-around;
+	min-height: 600px;
+	padding: 20px 0px;
+	
+}
+.container__verticalBlock{
+	display:flex;
+	flex-direction: column;
+	margin: 0 5px;
+	padding:10px;
+	background-color: #DCDCDC;
+	border-radius: 10px;
+}
+.dialogBlock{
+	display:flex;
+
+	flex-direction: column;
+	background-color: #F5F5F5;
+	border-radius: 10px;
+	margin: 5px 0px;
+	padding: 10px 8px;
+}
+
+.dialogBlock__icons{
+	display:flex;
+	align-items: center;
+	padding-top: 20px;
+}
+.dialogBlock__icons_left{
+	display:flex;
+}
+.dialogBlock__icons_left img{
+	height: 20px;
+	margin-right: 10px;
+}
+.dialogBlock__icons_right{
+	display:flex;
+	flex-grow:1;
+	justify-content: flex-end;
+}
+.dialogBlock__icons_right img{
+	height: 30px;
+}
